@@ -15,7 +15,7 @@ class App extends Component{
                 <Switch>
                     <Route path="/" component={Fibonacci} exact/>
                     <Route path="/prime-number" component={PrimeNumber} />
-                    <Route path="/euclidean " component={Euclidean}/>
+                    <Route path="/euclidean" component={Euclidean}/>
                     <Route component={Error}/>
                 </Switch>
             </div>

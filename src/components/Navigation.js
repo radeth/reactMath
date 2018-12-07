@@ -6,9 +6,9 @@ class Navigation extends Component {
     render() {
         return (
             <div>
-                <NavLink to='/'>Fibonacci</NavLink>
-                <NavLink to='/prime-number'>PrimeNumber</NavLink>
-                <NavLink to='/euclidean'>Euclidean</NavLink>
+                <NavLink activeClassName="active" to='/' exact>Fibonacci</NavLink>
+                <NavLink activeClassName="active" to='/prime-number' exact>PrimeNumber</NavLink>
+                <NavLink activeClassName="active" to='/euclidean' exact>Euclidean</NavLink>
             </div>
         );
 
