@@ -7,7 +7,7 @@ class Navigation extends Component {
         return (
             <div>
                 <NavLink activeClassName="active" to='/' exact>Fibonacci</NavLink>
-                <NavLink activeClassName="active" to='/prime-number' exact>PrimeNumber</NavLink>
+                <NavLink activeClassName="active" to='/prime-numbers' exact>PrimeNumbers</NavLink>
                 <NavLink activeClassName="active" to='/euclidean' exact>Euclidean</NavLink>
             </div>
         );
